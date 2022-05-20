@@ -221,6 +221,10 @@ In this file we just include a number of single configuration files, each one fo
 <span class="c1">// Here we used as and work directory for intermediate files the S3 bucket</span>
 <span class="n">workDir</span> <span class="o">=</span> <span class="s1">&#39;s3://aws-genomics-workflows-store/readmap/scratch&#39;</span>
 
+<span class="n">plugins</span> <span class="o">{</span>
+    <span class="n">id</span> <span class="s1">&#39;nf-amazon&#39;</span>
+<span class="o">}</span>
+
 <span class="n">process</span> <span class="o">{</span>
     <span class="c1">// definition of the awsbatch executor. Run the pipeline in a AWS node able to submit jobs via batch submission</span>
     <span class="n">executor</span> <span class="o">=</span> <span class="s1">&#39;awsbatch&#39;</span>
