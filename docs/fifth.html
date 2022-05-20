@@ -212,11 +212,12 @@ In this file we just include a number of single configuration files, each one fo
 <span class="c1">// Here we define some AWS parameters like the region and the aws executables </span>
 <span class="n">aws</span><span class="o">.</span><span class="na">region</span> <span class="o">=</span> <span class="s1">&#39;us-west-1&#39;</span>
 <span class="c1">//aws.batch.cliPath = &#39;/home/ec2-user/miniconda/bin/aws&#39;</span>
+<span class="n">aws</span><span class="o">.</span><span class="na">batch</span><span class="o">.</span><span class="na">cliPath</span> <span class="o">=</span> <span class="s1">&#39;/usr/bin/aws&#39;</span>
 
-<span class="c1">// Please change those values with the ones we provided you for accessing the cloud</span>
-<span class="hll"><span class="c1">//aws.accessKey = &#39;ACCESSKEY&#39;</span>
-</span><span class="hll"><span class="c1">//aws.secretKey = &#39;SECRETKEY&#39;</span>
-</span>
+<span class="hll"><span class="c1">// Please change those values with the ones we provided you for accessing the cloud</span>
+</span><span class="hll"><span class="c1">//aws.accessKey = &#39;ACCESSKEY&#39;</span>
+</span><span class="c1">//aws.secretKey = &#39;SECRETKEY&#39;</span>
+
 
 <span class="c1">// Here we used as and work directory for intermediate files the S3 bucket</span>
 <span class="n">workDir</span> <span class="o">=</span> <span class="s1">&#39;s3://aws-genomics-workflows-store/readmap/scratch&#39;</span>
