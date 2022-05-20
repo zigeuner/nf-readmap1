@@ -1,3 +1,3 @@
 GitHub Pages of [zigeuner/nf-readmap1](https://github.com/zigeuner/nf-readmap1.git)
 ===
-Sphinx html documentation of [78f899ee](https://github.com/zigeuner/nf-readmap1/tree/78f899eecab9ceeb000f582c984f83ca379194a5)
+Sphinx html documentation of [ba55abb7](https://github.com/zigeuner/nf-readmap1/tree/ba55abb748d5e6745d5a67584a386f58c1a0e7bc)
