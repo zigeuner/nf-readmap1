@@ -1,3 +1,3 @@
-GitHub Pages of [nextflow-io/elixir-workshop-21](https://github.com/nextflow-io/elixir-workshop-21.git)
+GitHub Pages of [zigeuner/nf-readmap1](https://github.com/zigeuner/nf-readmap1.git)
 ===
-Sphinx html documentation of [9b9997d0](https://github.com/nextflow-io/elixir-workshop-21/tree/9b9997d0c0ee8a6586f829f36fbd08ad64d9c2a9)
+Sphinx html documentation of [e3b9fbd9](https://github.com/zigeuner/nf-readmap1/tree/e3b9fbd9c2d0f1c4ab7fd612c214da399de7b034)

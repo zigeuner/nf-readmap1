@@ -210,23 +210,23 @@ In this file we just include a number of single configuration files, each one fo
 <span class="cm">*/</span>
 
 <span class="c1">// Here we define some AWS parameters like the region and the aws executables </span>
-<span class="n">aws</span><span class="o">.</span><span class="na">region</span> <span class="o">=</span> <span class="s1">&#39;eu-west-1&#39;</span>
-<span class="n">aws</span><span class="o">.</span><span class="na">batch</span><span class="o">.</span><span class="na">cliPath</span> <span class="o">=</span> <span class="s1">&#39;/home/ec2-user/miniconda/bin/aws&#39;</span>
+<span class="n">aws</span><span class="o">.</span><span class="na">region</span> <span class="o">=</span> <span class="s1">&#39;us-west-1&#39;</span>
+<span class="c1">//aws.batch.cliPath = &#39;/home/ec2-user/miniconda/bin/aws&#39;</span>
 
 <span class="c1">// Please change those values with the ones we provided you for accessing the cloud</span>
-<span class="hll"><span class="n">aws</span><span class="o">.</span><span class="na">accessKey</span> <span class="o">=</span> <span class="s1">&#39;ACCESSKEY&#39;</span>
-</span><span class="hll"><span class="n">aws</span><span class="o">.</span><span class="na">secretKey</span> <span class="o">=</span> <span class="s1">&#39;SECRETKEY&#39;</span>
+<span class="hll"><span class="c1">//aws.accessKey = &#39;ACCESSKEY&#39;</span>
+</span><span class="hll"><span class="c1">//aws.secretKey = &#39;SECRETKEY&#39;</span>
 </span>
 
 <span class="c1">// Here we used as and work directory for intermediate files the S3 bucket</span>
-<span class="n">workDir</span> <span class="o">=</span> <span class="s1">&#39;s3://nf-elixir/scratch&#39;</span>
+<span class="n">workDir</span> <span class="o">=</span> <span class="s1">&#39;s3://aws-genomics-workflows-store/readmap/scratch&#39;</span>
 
 <span class="n">process</span> <span class="o">{</span>
     <span class="c1">// definition of the awsbatch executor. Run the pipeline in a AWS node able to submit jobs via batch submission</span>
     <span class="n">executor</span> <span class="o">=</span> <span class="s1">&#39;awsbatch&#39;</span>
 
     <span class="c1">// definition of the default queue name. </span>
-    <span class="n">queue</span> <span class="o">=</span> <span class="s1">&#39;nextflow-ci&#39;</span>
+    <span class="n">queue</span> <span class="o">=</span> <span class="s1">&#39;priority-gwfcore&#39;</span>
 
     <span class="c1">// resources for default process execution</span>
     <span class="n">memory</span><span class="o">=</span><span class="s1">&#39;1G&#39;</span>
